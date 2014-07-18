@@ -23,6 +23,8 @@ TEMPLATE_DIRS = (
     TEMPLATE_PATH,
 )
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media')
 
 
 # Static files (CSS, JavaScript, Images)
@@ -34,7 +36,6 @@ STATICFILES_DIRS = (STATIC_PATH,)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '@m1_5#)cna^558$8!=ud28(3uw@ddif)3$-4#9%!xy$^^k1(oq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
